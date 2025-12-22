@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  
+}
+.logo img{
+     width: 20%;
+     
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 20%;
+}
+ul li{
+    padding: 20px 25px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    align-items: center;
+    color: #999;
+    
+}
+ul li a.active{
+        text-decoration-line: underline;
+    transform: none;
+    text-underline-offset: 10px;
+    transition: 0.5s;
+     color: #e65100;
+}
+ul li a:hover{
+    color: #e65100;
+    text-decoration-line: underline;
+     transform: rotate(10deg);
+    text-underline-offset: 10px;
+    transition: 0.5s;
+   
+}
+.connecter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn1{
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    font-size: 14px;
+    border-radius: 10px;
+    color: #999;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    font-size: 14px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background-color: #e65100;
+    cursor: pointer;
+}
+.btn2 h4:hover{
+    transition: 0.5s;
+}
+.accueil-img{
+  background-image:
+    linear-gradient(
+      rgba(223, 91, 20, 0.534),
+      rgba(218, 94, 27, 0.596)
+    ),
+    url("image/banner-head-accueil.jpg");
+     width: 100%;
+    height: 500px;
+  background-size: cover;
+  background-position: center;
+
+}
+.accueil-text{
+  position: absolute;
+  bottom: 250px;
+  margin-left: 100px;
+  color: white;
+}
+.accueil-text h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.accueil-text span{
+    color: #ffb300;
+}
+.content-img img{
+ background-size: cover;
+  position: absolute;
+  bottom: 200px;
+  margin-left: 750px;
+  width: 30%;
+  height: 250px;
+   border-radius: 10px;
+
+}
+.content-card{
+    background-color: #fff3e0;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.content-card .mention{
+     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+     background-color: white;
+    margin-top: 30px;
+  padding: 20px;
+  margin-bottom: 50px;
+width: 20%;
+height: 60%;
+  border-radius: 15px;
+
+}
+.content-card .mention p{
+    font-size: 12px;
+    text-align: center;
+}
+.content-card .mention p span{
+   color: #e65100;
+text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 30px;
+
+}
+.service{
+    text-align: center;
+    margin-top: 50px;
+ 
+}
+.service p{
+    color: #5e5c5c;
+}
+.box{
+    margin-top: 30px;
+   display: flex;
+    justify-content: space-betwee
+    
+}
+.box .text-box{
+      box-shadow: 5px 5px 30px rgba(255, 243, 224, 1);
+      padding: 20px;
+      background-color: #ffb380;
+      width: 25%;
+      margin-left: 90px;
+      border-radius: 10px;
+}
+.box .text-box h3{
+    color: #632e11;
+}
+.box .text-box h4{
+    text-decoration-line: underline;
+     color: #e65100;
+}
+
+.box .text-box1{
+      box-shadow: 5px 5px 30px rgba(255, 243, 224, 1);
+      padding: 20px;
+      background-color: #fff3e0;
+      width: 25%;
+       margin-left: 60px;
+      border-radius: 10px;
+}
+.box .text-box1 h3{
+    color: #632e11;
+}
+.box .text-box1 h4{
+    text-decoration-line: underline;
+    color: #e65100;
+}
+
+.box .text-box2{
+      box-shadow: 5px 5px 30px rgba(255, 243, 224, 1);
+      padding: 20px;
+      background-color: #ffb380;
+      width: 25%;
+       margin-left: 60px;
+      border-radius: 10px;
+}
+.box .text-box2 h3{
+    color: #632e11;
+} 
+.box .text-box2 h4{
+    text-decoration-line: underline;
+    color: #e65100;
+}
+h2{
+    text-align: center;
+    margin-top: 90px;
+    padding: 20px;
+padding-top: 50px;
+
+}
+.localite{
+  background-color: #fff3e0;
+}
+.localite img{
+     background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-left: 280px;
+  width: 60%;
+  height: 355px;
+   border-radius: 20px;
+   padding-bottom: 50px;
+}
+.title{
+  text-align: center;
+  margin-top: 10px;
+}
+.card{
+  
+    display: flex;
+     
+    margin-top: -10px;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.card .clients{
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    margin: 30px;
+   border-radius: 10px;
+    background-color: white;
+    margin-left: 50px;
+    padding: 20px;
+    width: 30%;
+    height: 170px;
+}
+.card .clients .icone{
+    justify-content: space-between;
+    margin-left: 5px;
+    background-color: #e6dfdf;
+    height: 50px;
+    width: 50px;
+   font-weight: bold;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+   padding: 10px;
+   font-size: 19px;
+   border: 2px solid #ffb300;
+    position: relative;
+     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+.card .clients .para{
+    margin-left: 60px;
+    margin-top: -25px;
+}
+.card .clients i{
+   text-align: center;
+   font-size: 8px;
+    justify-content: end;
+    color: #ffb300;
+}
+.card .clients p{
+   font-size: 12px;
+}
+.card .clients1{
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    margin: 30px;
+   border-radius: 10px;
+    background-color: white;
+    margin-left: 50px;
+    padding: 20px;
+    width: 30%;
+    height: 170px;
+}
+.card .clients1 .icone{
+    justify-content: space-between;
+    margin-left: 5px;
+    background-color: #e65100;
+    height: 50px;
+    width: 50px;
+   font-weight: bold;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+   padding: 10px;
+   font-size: 19px;
+    position: relative;
+     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+.card .clients1 .para{
+    margin-left: 60px;
+    margin-top: -25px;
+    
+}
+.card .clients1 i{
+   text-align: center;
+   font-size: 8px;
+    justify-content: end;
+    color: #ffb300;
+}
+.card .clients1 p{
+   font-size: 12px;
+}
+.card .clients2{
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    margin: 30px;
+   border-radius: 10px;
+    background-color: white;
+    margin-left: 50px;
+    padding: 20px;
+    width: 30%;
+    height: 170px;
+}
+.card .clients2 .icone{
+    justify-content: space-between;
+    margin-left: 5px;
+    background-color: #ffb300;
+    height: 50px;
+    width: 50px;
+   font-weight: bold;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+   padding: 10px;
+   font-size: 19px;
+   color: white;
+    position: relative;
+     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+.card .clients2 .para{
+    margin-left: 60px;
+    margin-top: -25px;
+    
+}
+.card .clients2 i{
+   text-align: center;
+   font-size: 8px;
+    justify-content: end;
+    color: #ffb300;
+}
+.card .clients2 p{
+   font-size: 12px;
+}
+.card .clients3{
+      box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    margin: 30px;
+   border-radius: 10px;
+    background-color: white;
+    margin-left: 50px;
+    padding: 20px;
+    width: 30%;
+    height: 170px;
+}
+.card .clients3 .icone{
+    justify-content: space-between;
+    margin-left: 5px;
+    background-color: #36a51a;
+    height: 50px;
+    width: 50px;
+   font-weight: bold;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+   padding: 10px;
+   font-size: 19px;
+   border: 2px solid #ffb300;
+    position: relative;
+     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+.card .clients3 .para{
+    margin-left: 60px;
+    margin-top: -25px;
+}
+.card .clients3 i{
+   text-align: center;
+   font-size: 8px;
+    justify-content: end;
+    color: #ffb300;
+}
+.card .clients3 p{
+   font-size: 12px;
+}
+.contenair-img{
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-position: center;
+      background-image:
+    linear-gradient(
+      rgba(223, 91, 20, 0.534),
+      rgba(218, 94, 27, 0.596)
+    ),
+    url("image/banner-head-accueil.jpg");
+}
+.content-text{
+    position: absolute;
+  bottom: -230%;
+  margin-left: 350px;
+  color: white;
+  text-align: center;
+}
+.button{
+  position: absolute;
+  bottom: -240%;
+  margin-left: 550px;
+  color: #e65100;;
+  text-align: center;
+   box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+   background-color: white;
+   padding: 15px;
+   border-radius: 8px;
+}
+footer{
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    color: white;
+}
+.conacts ul{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
