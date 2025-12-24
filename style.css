@@ -9,38 +9,52 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+   
+   
   
 }
 .logo img{
      width: 20%;
+     margin-left: 100px;
      
 }
-ul{
+nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    width: 20%;
+    width: 20%; 
+    margin-right: -170px;
+   
 }
-ul li{
+.navig ul li{
     padding: 20px 25px;
+      justify-content: space-between;
+       
 }
-ul li a{
+.navig ul li a{
     text-decoration: none;
     font-size: 14px;
     align-items: center;
     color: #999;
+    gap: 20px;
+    justify-content: center;
+   
     
 }
-ul li a.active{
-        text-decoration-line: underline;
+.navig ul li a.active{
+    background-color: #e65100;
     transform: none;
     text-underline-offset: 10px;
     transition: 0.5s;
-     color: #e65100;
+  color: white;
+   padding: 10px;
+   border-radius: 10px;
 }
-ul li a:hover{
-    color: #e65100;
-    text-decoration-line: underline;
+.navig ul li a:hover{
+    padding: 10px;
+    background-color: #e65100;
+   color: white;
+   border-radius: 10px;
      transform: rotate(10deg);
     text-underline-offset: 10px;
     transition: 0.5s;
@@ -48,8 +62,9 @@ ul li a:hover{
 }
 .connecter{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    margin-right: 90px;
 }
 .btn1{
     box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
@@ -58,6 +73,7 @@ ul li a:hover{
     color: #999;
     padding: 10px;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 .btn2{
@@ -65,6 +81,7 @@ ul li a:hover{
     font-size: 14px;
     border-radius: 10px;
     color: white;
+   
     padding: 10px;
     background-color: #e65100;
     cursor: pointer;
@@ -72,6 +89,7 @@ ul li a:hover{
 .btn2 h4:hover{
     transition: 0.5s;
 }
+
 .accueil-img{
   background-image:
     linear-gradient(
@@ -125,6 +143,8 @@ ul li a:hover{
 width: 20%;
 height: 60%;
   border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 .content-card .mention p{
@@ -150,7 +170,7 @@ text-align: center;
 .box{
     margin-top: 30px;
    display: flex;
-    justify-content: space-betwee
+    justify-content: space-between;
     
 }
 .box .text-box{
@@ -158,8 +178,9 @@ text-align: center;
       padding: 20px;
       background-color: #ffb380;
       width: 25%;
-      margin-left: 90px;
+      margin-left: 100px;
       border-radius: 10px;
+      
 }
 .box .text-box h3{
     color: #632e11;
@@ -191,6 +212,7 @@ text-align: center;
       background-color: #ffb380;
       width: 25%;
        margin-left: 60px;
+       margin-right: 90px;
       border-radius: 10px;
 }
 .box .text-box2 h3{
@@ -210,7 +232,7 @@ padding-top: 50px;
 .localite{
   background-color: #fff3e0;
 }
-.localite img{
+.localite iframe{
      background-size: cover;
   position: relative;
   text-align: center;
@@ -393,6 +415,9 @@ padding-top: 50px;
 .card .clients3 p{
    font-size: 12px;
 }
+.border{
+    position: relative;
+}
 .contenair-img{
     background-size: cover;
     width: 100%;
@@ -407,14 +432,14 @@ padding-top: 50px;
 }
 .content-text{
     position: absolute;
-  bottom: -230%;
+  top: 20%;
   margin-left: 350px;
   color: white;
   text-align: center;
 }
 .button{
   position: absolute;
-  bottom: -240%;
+  bottom: 25%;
   margin-left: 550px;
   color: #e65100;;
   text-align: center;
@@ -424,16 +449,34 @@ padding-top: 50px;
    border-radius: 8px;
 }
 footer{
-    background-color: black;
-    justify-content: space-between;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
-    display: flex;
-    color: white;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 18);
+    color: #FFF;
+    gap: 10px;
+    padding: 40px 0;
 }
-.conacts ul{
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
+
+.footer{
+   
+    width: 100%;
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    border-bottom: 1px solid #5e5c5c;
+} 
+
+.footer p{
+    font-weight: bold;
+}
+
+.footer ul li{
+    color: gray;
+    list-style: none;
+}
+
+
