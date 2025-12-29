@@ -18,7 +18,7 @@
      <div class="navig">
         <ul>
             
-            <li><a href="#">Accueil</a></li>
+            <li><a href="index.html">Accueil</a></li>
             <li><a href="#">Restaurants</a></li>
             <li><a href="#">Coursdecuisine</a></li>
             <li><a href="#"  class="active">Traiteurs</a></li>
@@ -144,7 +144,12 @@
     <div class="contacts">
         <h2>Photo de profil</h2>
         <p>Photo</p>
-        <input type="file">  
+        <div class="file">
+       <input type="file" id="fichier" hidden>
+<label for="fichier" class="btn-file">
+    Choisir un fichier
+</label> <p>Aucun fichier choisi</p>
+</div>
         <p>Formats acceptes : JPG, JPEG, PNG. Taille maximal : 10MB</p>
 
     </div>
